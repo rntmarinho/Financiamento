@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financiamento</title>
+    <link rel="stylesheet" href="layout.css">
+  </head>
+  <body>
+    <main>
+      <div class="section">
+
+        <div class="title"> FINANCIAMENTO </div>
+
+        <div class="input">
+             <input placeholder="Digite sua renda mensal (em R$) Ex.: 1900:" type="number" id='rendamensal' required="required">
+        </div>
+
+        <div class="input">
+          <input placeholder="Digite o valor do bem a ser financiado (em R$) Ex.: 1900:" type="number" id='valordobem' required="required" >
+      </div>
+
+        <div class="input">
+            <input  placeholder="Digite o valor da entrada (em R$) Ex.: 1900"  type="number" id='entrada'required="required">
+        </div>
+
+        <div class="input">
+          <input  placeholder="Digite o valor da taxa de juros (em %) Ex.: 1,4"  type="number" id='juros'required="required">
+      </div>
+
+      <div class="input">
+        <input  placeholder="Digite o número de prestações (Ex.: 10):"  type="number" id='prestacoes'required="required">
+    </div>
+
+        <button id='calcular'>Calcular</button>
+
+        <div class="result" id='resultado'></div>
+
+        <footer> Atenção! Fique atento às mudanças no mercado, valores podem ser alterados com o tempo. </footer>  
+
+      </div>
+    </main>
+    <script src="codigo.js"></script>
+  </body>
+</html>
